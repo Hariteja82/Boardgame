@@ -1,0 +1,5 @@
+.jar or .war files test Trivy command
+trivy fs --format table -o trivy-fs-report.html .
+
+Docker image test trivy cammand
+trivy fs --format table -o trivy-image-report.html ***/boardgame:latest
